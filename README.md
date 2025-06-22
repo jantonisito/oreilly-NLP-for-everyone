@@ -48,3 +48,31 @@ In this class we introduce viewers to natural language processing from scratch. 
 - Apply Language detection
 
 Slides: http://data4sci.com/landing/nlp/
+
+## Is Traditional NLP (TF-IDF, BoW, syntactic parsing) Still Relevant?
+✅ YES — but with a shift in purpose.
+While large language models (LLMs) have revolutionized NLP, classic techniques still matter for:
+
+# 🔧 1. Speed and Simplicity
+TF-IDF, POS tagging, regex parsing are fast, interpretable, and light on memory
+
+Used in search engines, spam filters, news deduplication, etc.
+
+# 🧪 2. Explainability
+A judge or doctor might not trust a BERT model, but they can understand TF-IDF weights or dependency trees
+
+Classical NLP is easier to audit and debug
+
+# 💡 3. Preprocessing for ML Pipelines
+Tokenization, stemming, lemmatization, and named entity recognition (NER) are still core inputs to many systems — even those that aren't LLMs
+
+# 🔗 4. Hybrid Systems
+LLMs often use traditional NLP under the hood (e.g., for aligning outputs, extracting structured fields, or preparing training corpora)
+
+# 🚪 5. Low-resource or Offline Environments
+Mobile apps, embedded devices, or legal/medical deployments may avoid cloud-based models and use classic NLP
+
+# 🌉 In Summary
+Traditional NLP is no longer the final destination, but it is still a solid foundation — and often part of the road to deep semantic models.
+
+You're doing exactly the right thing: mastering the basics so you can understand and even control the behavior of LLMs and embeddings later.
